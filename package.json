@@ -1,0 +1,29 @@
+{
+  "name": "@richlewis42/tsm",
+  "version": "0.7.1",
+  "description": "A TypeScript vector and matrix math library",
+  "main": "./TSM/tsm-0.7.common.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richlewis42/TSM.git"
+  },
+  "keywords": [
+    "matrix",
+    "vector"
+  ],
+  "author": "Matthias Ferch",
+  "contributors": [
+  	{
+      "name": "Rich Lewis",
+      "email": "rl403@cam.ac.uk"
+    }
+  ],
+  "license": "zlib",
+  "bugs": {
+    "url": "https://github.com/richlewis42/TSM/issues"
+  },
+  "homepage": "https://github.com/richlewis42/TSM"
+}

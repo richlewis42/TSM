@@ -1,4 +1,4 @@
-/**
+/*
  * @fileoverview TSM - A TypeScript vector and matrix math library
  * @author Matthias Ferch
  * @version 0.6
@@ -40,5 +40,7 @@
 
 ///<reference path='./quat.ts' />
 
-
-
+// commonjs module trick.
+// see http://stackoverflow.com/questions/26629340/creating-a-single-commonjs-module-from-several-typescript-classes
+var module: any = <any>module;
+module.exports = TSM;
